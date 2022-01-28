@@ -49,3 +49,13 @@ body {
 .descr { 
   color: hsl(220, 15%, 55%);
 }
+
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 480px)
+ and (-webkit-min-device-pixel-ratio: 2) {
+  .container {
+    max-width: 320px;
+  }
+ }
