@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.container {
+  max-width: 1470px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  background-color:hsl(212, 45%, 89%);
+}
+
+.qr-box{
+  max-width: 300px;
+  padding: 15px 15px 30px;
+  border: 1px solid hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 100px;
+  
+} 
+
+.qr-img {
+  border-radius: 5px;
+}
+
+.title {
+  font-weight: 700;
+  color:hsl(218, 44%, 22%);
+}
+
+.descr { 
+  color: hsl(220, 15%, 55%);
+}
